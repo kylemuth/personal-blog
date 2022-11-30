@@ -1,4 +1,4 @@
-# Blog Example
+# Personal Blog Example Site
 
 ## First commit to GitHub!
 
