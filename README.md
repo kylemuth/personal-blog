@@ -6,6 +6,7 @@
 
 * Built when I initially learned modals, this project is primarily CSS-focused.
   * Only built for my browswer- is not mobile friendly
+  * Had not learned about npm yet, was still fresh into JS
   
 * Lessons learned:
   * When modal is active, blur in background should cover navigation bar as well
