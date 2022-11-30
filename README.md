@@ -1,6 +1,6 @@
 # Blog Example
 
-First commit to GitHub!
+## First commit to GitHub!
 
 ---
 
