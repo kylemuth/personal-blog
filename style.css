@@ -1,0 +1,167 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Main styles */
+
+body {
+  background-color: rgb(24, 24, 24);
+  font-family: "Fira Code", monospace;
+  position: relative;
+}
+
+nav {
+  height: 8vh;
+  width: 100%;
+  background-color: rgb(32, 32, 32);
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding: 0 20px;
+  /* box-shadow: 2px 3px 4px #3f0071; */
+  border-bottom: solid rgba(242, 0, 70, 0.6) 3px;
+}
+
+.pink {
+  color: rgb(242, 0, 69);
+}
+
+nav p a {
+  color: rgba(245, 245, 245, 0.75);
+  font-size: 2.5em;
+  padding-bottom: 10px;
+  text-decoration: none;
+}
+
+nav p a:hover {
+  cursor: pointer;
+}
+
+nav ul {
+  display: flex;
+  padding-bottom: 10px;
+}
+
+nav li {
+  list-style-type: none;
+  padding: 0 12px;
+}
+
+nav li a {
+  text-decoration: none;
+  color: rgba(245, 245, 245, 0.481);
+  border-left: 2px whitesmoke solid;
+  padding-left: 10px;
+}
+
+nav li a:hover {
+  background-color: rgb(120, 120, 120);
+  transition: 0.2s;
+  border-radius: 20px;
+  padding: 7px;
+  box-shadow: 2px 3px 4px rgba(0, 0, 0, 0.5);
+  border-left: none;
+  color: ghostwhite;
+}
+
+nav li a:active {
+  box-shadow: 6px 3px 5px rgb(70, 70, 70);
+}
+
+/* Hero section */
+
+main {
+  height: 92vh;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+.hero-wrapper {
+  display: flex;
+  color: rgba(245, 245, 245, 0.763);
+  text-align: center;
+}
+
+.hero-rightside,
+.hero-leftside {
+  width: 50%;
+  padding-top: 30px;
+}
+
+/* right side of hero page */
+
+.hero-rightside img {
+  border-radius: 10px;
+  box-shadow: 2px 1px 3px rgba(242, 0, 70, 0.6);
+  transition: 0.8s;
+}
+
+.hero-rightside img:hover {
+  box-shadow: 4px 3px 15px rgba(242, 0, 70, 0.6);
+  transition: 0.5s linear;
+}
+
+/* left side of hero page */
+
+.hero-leftside-top,
+.hero-leftside-bottom {
+  height: 50%;
+}
+
+.hero-leftside-bottom {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hero-leftside-bottom h2 {
+  margin-bottom: 20px;
+}
+
+.btn {
+  width: 30rem;
+  margin: 20px 0;
+  padding: 15px;
+  border-radius: 20px;
+  border: solid rgba(242, 0, 69, 0.216) 1px;
+  font-family: "Fira Code", monospace;
+  font-size: 1rem;
+  font-weight: bold;
+  background-color: rgb(32, 32, 32);
+  color: whitesmoke;
+  box-shadow: 1px 1px 1px rgba(242, 0, 70, 0.6);
+  transition: 0.6s;
+}
+
+.btn:hover {
+  cursor: pointer;
+  background-color: white;
+  color: rgb(101, 101, 101);
+  transform: translate(2px);
+  transition: 0.6s;
+}
+
+/* modals */
+.modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 50vw;
+  background-color: rgba(245, 245, 245, 0.7);
+  padding: 100px;
+  border-radius: 20px;
+  box-shadow: 2px 3px 10px rgba(0, 0, 0, 0.8);
+}
+
+.blur {
+  filter: blur(15px);
+}
+
+.hide {
+  display: none;
+}
